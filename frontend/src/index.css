@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.active hr {
+  display: block;
+}
+
+@media (max-width: 740px) {
+  .active p {
+    color: white;
+    background-color: #5F6FFF;
+  }
+}
